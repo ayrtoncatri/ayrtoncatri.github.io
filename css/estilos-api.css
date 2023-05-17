@@ -1,0 +1,241 @@
+
+body{
+   background-color: antiquewhite;
+   margin: 0;
+   padding: 0%;
+}
+
+.container-general{
+    min-height: calc(100vh - 100px - 300px);
+
+}
+
+.slide{
+    margin-top: 0px;
+}
+
+.slide img{
+    height: 80vh;
+    object-fit: cover;
+}
+#p1{
+    border: 3px;
+}
+#p2{
+    font-size: 3ch;
+    padding: .2rem;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tipo3{
+    font-size: 5;
+    margin-top: 4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+.wide{
+    grid-column: span 2;
+
+}
+.tall{
+    grid-row: span 2;
+}
+.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+.pie{
+    background: rgba(28, 28, 28, 1);   
+    width: 100%;
+  position: absolute;
+  clear: both;
+  margin-top: 0px;
+  padding-top: 0px;
+  overflow: visible;
+  top:93%; 
+}
+span{
+    font-size: 23px;
+    color: white;
+}
+.logo img{
+    width: 100px;
+}
+
+.span{
+    font-size: 23px;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+
+.header > .com h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.header > .redes{
+    gap: 10px;
+}
+
+.section{
+    font-size: 18px;
+    color: white;
+}
+div h2{
+    color: white;
+    font-size: 20px;
+}
+#contenedor{
+    max-width: 1400px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  
+}
+
+#caja1, #caja2,#caja3{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 1400px;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+
+
+}
+
+#caja1{
+    background-color: burlywood;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+}
+
+#caja2{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    
+}
+
+#caja3{
+    background-color: burlywood;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    
+}
+
+#caja3 #viento-velocidad{
+    font-size: 2em;
+
+}
+
+#caja4{
+    
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1400px;
+    
+    background-color:antiquewhite;
+    
+    align-items: center;
+    margin: auto;
+    align-items: center;
+}
+
+#caja4 #mensaje{
+    margin: 0;
+    padding:  25px 30px;
+    font-weight: bold;
+    
+    
+
+}
+.portafolio{
+    margin: 0;
+
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 33%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+}
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#caja1 #temperatura-descripcion{
+    font-size: 2em;
+}
+
+
+
+
+
